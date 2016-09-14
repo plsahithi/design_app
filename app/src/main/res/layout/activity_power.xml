@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:id="@+id/ln1"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+
+            >
+            <Button
+                android:id="@+id/mail"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/mail_tab_left"
+                android:textColor="#FFFFFF"
+                android:textSize="35sp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:gravity="left|center_vertical"
+                />
+            <Button
+                android:id="@+id/setting"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/security_tab_left"
+                android:layout_marginRight="3dp"
+                android:textColor="#FFFFFF"
+                android:textSize="35sp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:gravity="left|center_vertical"
+                />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        xmlns:accordion="http://schemas.android.com/apk/res-auto"
+        android:background="@android:color/white"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="@drawable/color"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="@drawable/power"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/example_get_by_id"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Power Save:OFF"
+                android:textAlignment="center"
+                android:textSize="25dp"
+                android:textColor="#819FF7"
+                android:layout_marginTop="30dp"
+                android:textStyle="bold" />
+            <ImageView
+                android:id="@+id/poweroff"
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:src="@drawable/powerfull"
+                android:layout_below="@+id/tv"
+                android:layout_marginTop="30dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Wifi and Lighting Enabled"
+                android:textColor="#819FF7"
+                android:layout_marginTop="30dp"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textAlignment="center"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:gravity="bottom">
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="30dp"
+                android:background="@drawable/address"/>
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

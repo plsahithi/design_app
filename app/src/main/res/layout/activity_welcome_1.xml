@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.controller.setup.systemcontrol.MailActivity">
+
+    <LinearLayout
+        android:id="@+id/example_get_by_id"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="right">
+
+        <LinearLayout
+            android:layout_width="320dp"
+            android:layout_height="match_parent"
+            android:layout_toLeftOf="@+id/ln"
+            android:layout_toRightOf="@+id/ln2"
+            >
+            <LinearLayout
+                android:id="@+id/example_get_by_id2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/tv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Welcome"
+                    android:textAlignment="center"
+                    android:textSize="40dp"
+                    android:textColor="#819FF7"
+                    android:layout_marginTop="30dp"
+                    android:textStyle="bold" />
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="The area to the right will always show the user whats coming next."
+                    android:textColor="#FF4081"
+                    android:layout_marginTop="10dp"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Just slide your finger as it turning a pages."
+                    android:textColor="#819FF7"
+                    android:layout_marginTop="80dp"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="This text should appear 5 seconds after the welcome screen loads so that the user has time to read it first."
+                    android:textColor="#FF4081"
+                    android:layout_marginTop="10dp"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:src="@drawable/loading_screen1"
+                    android:layout_marginTop="100dp"/>
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/security"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/welcome_right_tab"
+            android:layout_marginRight="3dp"
+            android:textColor="#FFFFFF"
+            android:textSize="35sp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:gravity="left|center_vertical"
+            />
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

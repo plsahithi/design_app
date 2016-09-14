@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="1">
+    <TableRow>
+        <LinearLayout
+            android:id="@+id/ln2"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            >
+            <Button
+                android:id="@+id/mail"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/welcome_left_tab"
+                android:textColor="#FFFFFF"
+                android:textSize="35sp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+
+                />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginBottom="60dp">
+
+                <TextView
+                    android:id="@+id/txtLocker"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:text="SetUp Bluetooth"
+                    android:textAlignment="center"
+                    android:textSize="25dp"
+                    android:textColor="#819FF7"
+                    android:layout_marginTop="0dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="These should come up one after another 5 seconds apart."
+                    android:textSize="18dp"
+                    android:textColor="#FF4081"
+                    android:layout_marginTop="0dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Make sure your bluetooth is turned on"
+                    android:textColor="#819FF7"
+                    android:layout_marginTop="10dp"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Enter password shown inside the mailbox"
+                    android:textColor="#819FF7"
+                    android:layout_marginTop="30dp"
+                    android:textSize="16dp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="The area to the right below is for a password"
+                    android:textColor="#FF4081"
+                    android:layout_marginTop="0dp"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/ed1"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:background="@drawable/customerborder"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Password should show the letter being typed"
+                    android:textColor="#FF4081"
+                    android:layout_marginTop="0dp"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:src="@drawable/loading_screen4"
+                    android:layout_marginTop="150dp"/>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="right"
+            android:id="@+id/ln"
+            >
+            <Button
+                android:id="@+id/security"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/wifi_password_right_tab"
+                android:textColor="#FFFFFF"
+                android:textSize="35sp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+
+                />
+        </LinearLayout>
+
+
+    </TableRow>
+
+</TableLayout>
